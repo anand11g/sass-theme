@@ -1,5 +1,12 @@
 .search {
-               background-color: $left-bg;
-               height: 100%;
-               width: 69%;
-           }
+    background-color: $left-bg;
+    height: 100%;
+    width: 69%;
+    border: 1px solid #000;
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1em;
+    width: 50%;
+}

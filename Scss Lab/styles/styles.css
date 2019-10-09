@@ -1,5 +1,7 @@
-.theme-1 .container {
+.theme-dark .container .search {
   background-color: #f7eb80;
+  height: 100%;
+  width: 69%;
   border: 1px solid #000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,39 +15,11 @@
   width: 50%;
 }
 
-.theme-1 .container * {
-  color: #fff;
-  font-size: 2rem;
-}
-
-.theme-1 .container .button {
-  background-color: #bc6a49;
-  border: 0;
-  border-radius: 10px;
-  bottom: 10px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 1em 2em;
-  position: absolute;
-  right: 10px;
-}
-
-.theme-1 .container .search {
+.theme-dark .container .filter {
   background-color: #497265;
   height: 100%;
-  width: 69%;
-}
-
-.theme-1 .container .filter {
-  background-color: #82aa91;
-  height: 100%;
   position: relative;
   width: 29%;
-}
-
-.theme-2 .container {
-  background-color: #e4ada7;
   border: 1px solid #000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,34 +33,46 @@
   width: 50%;
 }
 
-.theme-2 .container * {
-  color: #fff;
-  font-size: 2rem;
+.theme-dark .container .button {
+  color: green;
 }
 
-.theme-2 .container .button {
-  background-color: #481b16;
-  border: 0;
-  border-radius: 10px;
-  bottom: 10px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 1em 2em;
-  position: absolute;
-  right: 10px;
-}
-
-.theme-2 .container .search {
-  background-color: #d88880;
+.theme-light .container .search {
+  background-color: #e4ada7;
   height: 100%;
   width: 69%;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+  width: 50%;
 }
 
-.theme-2 .container .filter {
-  background-color: #cc6359;
+.theme-light .container .filter {
+  background-color: #d88880;
   height: 100%;
   position: relative;
   width: 29%;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+  width: 50%;
+}
+
+.theme-light .container .button {
+  color: green;
 }
 /*# sourceMappingURL=styles.css.map */

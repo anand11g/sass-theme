@@ -1,0 +1,7 @@
+@import "../mixin";
+
+
+$bgColor: #e4ada7;
+$frColor:#d88880;
+
+@include themable(theme-light,$bgColor,$frColor );
